@@ -1,0 +1,91 @@
+.info{
+	font-size: 0.9rem;
+	height: 1.5rem;
+}
+
+.user_name{
+	background: url(../img/icons/twitter.png) no-repeat 0.5rem center;
+}
+.time{
+	background: url(../img/icons/time.png) no-repeat 0.5rem center;
+	}
+.location{
+	background: url(../img/icons/location.png) no-repeat 0.5rem center;
+	}
+
+.blocks .btn-outline-primary
+{
+    margin: 5px 10px 5px 10px;
+	width: 80%
+}
+
+.content_panel {
+	min-height: calc(20rem - 13.5vw);
+}
+
+.non-tweets{
+	position: absolute;
+	left: 2%;
+	top: 45%;
+}
+.btn-icon-split{
+}
+.btn-icon-split .text {
+    display: inline-block;
+	/* padding: .375rem .75rem; */
+	font-size: 1rem;
+}
+
+.btn-icon-split .icon {
+    /* background: rgba(0,0,0,.15); */
+    display: inline-block;
+    /* padding: .375rem .75rem; */
+	font-size: 1rem;
+}
+
+.analysis_result{
+	height: calc(1.5em + 1rem + 2px);
+	border-radius: .3rem;
+	/* visibility: hidden; */
+}
+.analysis_result .text{
+	font-size: 0.8rem;
+	line-height: calc(1.5em + 1rem + 2px);
+}
+.analysis_result_sm{
+	border-radius: 0 0.5rem 0.5rem 0;
+}
+.analysis_result_sm_text{
+	text-align: center;
+	width: 40%;
+}
+.chart-area {
+  position: relative;
+  height: 18rem;
+  width: 100%;
+}
+.details_tweet{
+	/* padding-top: px; */
+	padding-bottom: 5px;
+
+}
+.details_time{
+	font-size: 0.9rem;
+	background: url(../img/icons/details_time.png) no-repeat 0.5rem center;
+	text-align: center;
+}
+
+.details_sentiment{
+	font-size: 0.9rem;
+	background: url(../img/icons/sentiment-neutral.png) no-repeat 0.5rem center;
+	text-align: center;
+}
+.details_content{
+	font-size: 0.8rem;
+}
+
+@media (min-width: 768px) {
+  .chart-area {
+    height: 25rem;
+  }
+}
